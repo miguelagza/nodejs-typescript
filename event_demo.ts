@@ -1,9 +1,7 @@
-import events from 'events';
-
-class MyEmitter extends events {}
+import { EventEmitter } from 'events';
 
 // Init Object
-const myEmitter = new MyEmitter();
+const myEmitter = new EventEmitter();
 
 // Event listener
 
